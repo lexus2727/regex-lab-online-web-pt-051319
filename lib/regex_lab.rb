@@ -1,5 +1,7 @@
 def starts_with_a_vowel?(word)
-  
+  scan.each do |vowel|
+    if word.starts_with_a_vowel?
+      return word
 
 end
 
