@@ -29,7 +29,7 @@ end
 
 #valid_numbers = ["2438894546", "(718)891-1313", "234 435 9978", "(800)4261134"]
 def valid_phone_number?(phone)
-if phone.match(/\(?([0-9]{3})\)?([-]?)([0-9]{3})([-]?)([0-9]{4})/) == nil
+if phone.match(/\(?([0-9]{3})\)?([ -]?)([0-9]{3})([ -]?)([0-9]{4})/) == nil
   return false
 else
   return true
